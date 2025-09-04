@@ -1,4 +1,5 @@
 // src/data/constants.js
+import Svg from '../assets/projects/svg.png';
 export const PROFILE = {
   name: "Sandaru Sadishan",
   headlineRoles: [
@@ -151,7 +152,10 @@ export const TECHNOLOGIES = {
     },
   ],
 };
+import SvgCover from '../assets/projects/svg.png';
+import UniCover from '../assets/projects/uni.png';
 
+// Add more imports for each of your project cover images 
 export const PROJECTS = [
   {
     title: "Company Web site",
@@ -160,7 +164,7 @@ export const PROJECTS = [
     github: "https://github.com/yourusername/task-manager",
     demo: "https://svg.lk/",
     tags: ["React", "Java Script", "TailwindCSS"],
-    cover: "../assets/projects/svg.png",
+    cover: SvgCover,
   },
   {
     title: "E‑Commerce [University Project(Individual)]",
@@ -169,7 +173,7 @@ export const PROJECTS = [
     github: "https://github.com/yourusername/ecommerce-dashboard",
     demo: "https://demo-ecommerce-dashboard.vercel.app",
     tags: ["React", "Node.js", "Express", "TailwindCSS", "MongoDB"],
-    cover: "../assets/projects/uni.png",
+    cover: UniCover,
   },
   {
     title: "Personal Blog",

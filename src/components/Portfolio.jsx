@@ -44,6 +44,7 @@ import { ProjectCard } from "./ProjectCard";
 import { SkillCard } from "./SkillCard";
 import { Github } from "lucide-react";
 import { Linkedin } from "lucide-react";
+import Photo from '../assets/projects/my.jpg';
 
 export const GITHUB = {
   // ... other profile data
@@ -344,7 +345,7 @@ const Portfolio = () => {
               <div className="relative aspect-square max-w-sm mx-auto">
                 <div className="absolute inset-0 rounded-3xl bg-grid opacity-40" />
                 <img
-                  src="/my.jpg"
+                  src={Photo}
                   alt="Profile"
                   className="relative z-10 w-full h-full object-cover rounded-3xl border border-slate-200 dark:border-white/10"
                 />
