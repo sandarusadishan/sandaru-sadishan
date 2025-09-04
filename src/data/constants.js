@@ -160,7 +160,7 @@ export const PROJECTS = [
     github: "https://github.com/yourusername/task-manager",
     demo: "https://svg.lk/",
     tags: ["React", "Java Script", "TailwindCSS"],
-    cover: "/src/assets/projects/svg.png",
+    cover: "../assets/projects/svg.png",
   },
   {
     title: "E‑Commerce [University Project(Individual)]",
@@ -169,7 +169,7 @@ export const PROJECTS = [
     github: "https://github.com/yourusername/ecommerce-dashboard",
     demo: "https://demo-ecommerce-dashboard.vercel.app",
     tags: ["React", "Node.js", "Express", "TailwindCSS", "MongoDB"],
-    cover: "/src/assets/projects/uni.png",
+    cover: "../assets/projects/uni.png",
   },
   {
     title: "Personal Blog",
