@@ -25,6 +25,8 @@ import {
   Instagram,
   Sun,
   Moon,
+  Github,
+  Linkedin,
 } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import { useTypewriter } from "../hooks/useTypewriter";
@@ -42,21 +44,11 @@ import { CustomStyles } from "./CustomStyles";
 import { BackgroundEffects } from "./BackgroundEffects";
 import { ProjectCard } from "./ProjectCard";
 import { SkillCard } from "./SkillCard";
-import { Github } from "lucide-react";
-import { Linkedin } from "lucide-react";
 import Photo from '../assets/projects/my.jpg';
 
-export const GITHUB = {
-  // ... other profile data
-  github: "https://github.com/sandarusadishan", // Make sure this line exists and has the correct URL
-  // ...
-};
-
-export const LINKEDIN = {
-  // ... other profile data
-  linkedin: "https://www.linkedin.com/in/sandaru-sadishan-123405296/", // Make sure this line exists and has the correct URL
-  // ...
-};
+// You don't need these separate GITHUB and LINKEDIN objects
+// because you already have them inside the PROFILE.social object.
+// I've removed them in this cleaned-up version for better practice.
 
 // Animation Variants
 const fadeUp = {
@@ -282,7 +274,8 @@ const Portfolio = () => {
           </AnimatePresence>
         </div>
       </header>
-      <main className="relative">
+      {/* The main fix is here: add overflow-x-hidden and max-w-full to the main tag */}
+      <main className="relative max-w-full overflow-hidden">
         {/* Hero */}
         <section
           id="home"
@@ -323,13 +316,13 @@ const Portfolio = () => {
                   See Projects <ArrowRight className="ml-2" size={18} />
                 </Button>
                 <Button variant="glass" size="lg" asChild>
-                  <a href={LINKEDIN.linkedin} target="_blank" rel="noreferrer">
+                  <a href={PROFILE.social.linkedin} target="_blank" rel="noreferrer">
                     <Linkedin size={18} className="mr-2" />
                     LinkedIn
                   </a>
                 </Button>
                 <Button variant="ghost" size="lg" asChild>
-                  <a href={GITHUB.github} target="_blank">
+                  <a href={PROFILE.social.github} target="_blank" rel="noreferrer">
                     <Github className="mr-2" size={18} />
                     GitHub
                   </a>

@@ -181,9 +181,9 @@ export const PROJECTS = [
       "MDX blog with syntax highlighting, RSS, and SEO best practices.",
     github: "https://github.com/yourusername/personal-blog",
     demo: "https://demo-personal-blog.vercel.app",
-    tags: ["Next.js", "MDX", "Vercel"],
+    tags: ["React", "Node.js", "Express", "TailwindCSS", "MongoDB"],
     cover:
-      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+      "https://colorlib.com/wp/wp-content/uploads/sites/2/best-website-templates-1.jpg",
   },
   {
     title: "Project 4",
@@ -191,9 +191,9 @@ export const PROJECTS = [
       "MDX blog with syntax highlighting, RSS, and SEO best practices.",
     github: "https://github.com/yourusername/personal-blog",
     demo: "https://demo-personal-blog.vercel.app",
-    tags: ["Next.js", "MDX", "Vercel"],
+    tags: ["React", "Node.js", "Express", "TailwindCSS", "MongoDB"],
     cover:
-      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+      "https://colorlib.com/wp/wp-content/uploads/sites/2/travelers-free-template.jpg",
   },
   {
     title: "Project 5",
@@ -201,9 +201,9 @@ export const PROJECTS = [
       "MDX blog with syntax highlighting, RSS, and SEO best practices.",
     github: "https://github.com/yourusername/personal-blog",
     demo: "https://demo-personal-blog.vercel.app",
-    tags: ["Next.js", "MDX", "Vercel"],
+    tags: ["React", "Spring Boot",  "TailwindCSS", "MongoDB"],
     cover:
-      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+      "https://market-resized.envatousercontent.com/previews/files/473290729/Image+Preview+Set/01_preview.jpg?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=7591cca850647779f1aaf910f26d62c3ad0bc8c4fc470d016acfc4d077010528",
   },
   {
     title: "Project 6",
@@ -211,9 +211,9 @@ export const PROJECTS = [
       "MDX blog with syntax highlighting, RSS, and SEO best practices.",
     github: "https://github.com/yourusername/personal-blog",
     demo: "https://demo-personal-blog.vercel.app",
-    tags: ["Next.js", "MDX", "Vercel"],
+    tags: ["Angular", "TailwindCSS", "MongoDB"],
     cover:
-      "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=1200&auto=format&fit=crop",
+      "https://themewagon.com/wp-content/uploads/2018/08/Blanca-free-HTML5-personal-website-template.jpg",
   },
 ];
 
